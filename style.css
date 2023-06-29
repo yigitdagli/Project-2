@@ -1,0 +1,75 @@
+body {
+    font-family: cursive;
+    margin: 50px 50px 0 50px;
+    display: flex;
+    background: linear-gradient(245.59deg, rgb(0, 153, 173) 50%, rgb(255, 255, 255) 35%);
+    flex-direction: column;
+    min-height: 95vh;
+    font-weight: bold;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    display: block;
+}
+
+span {
+    color: rgb(0, 149, 160);
+}
+
+.image {
+    height: 200px;
+    float: left;
+    margin-right: 50px;
+}
+
+img {
+    overflow: clip;
+    overflow-clip-margin: content-box;
+}
+
+.header {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.main {
+    flex: 1;
+}
+
+.left {
+    float: left;
+}
+
+.card {
+    width: 40%;
+}
+
+.right {
+    float: right;
+}
+
+.right > h2{
+    color: white;
+}
+
+.right > p{
+    color: white;
+}
+
+footer {
+    text-align: right;
+    color: rgb(0, 149, 160);
+    display: block;
+}
+
+div {
+    display: block;
+}
